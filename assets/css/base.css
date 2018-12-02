@@ -112,7 +112,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #666;
+		color: rgb(233, 27, 27);
 		line-height: 1.5em;
 	}
 
@@ -128,14 +128,19 @@ input, select, textarea {
 	h2 {
 		font-size: 2em;
 		letter-spacing: -1px;
+		font-family: 'Fresca', sans-serif;
+		/* font-family: 'Lemon', cursive; */
 	}
 
 		h2.alt {
-			color: #888;
+			color: rgb(173, 13, 13);
+			font-size: 5vw;
+			font-family: 'Julee', cursive;
+			/* font-family: 'Bungee Shade', cursive; */
 		}
 
 			h2.alt strong {
-				color: #666;
+				color: rgb(173, 13, 13);
 			}
 
 	h3 {
@@ -156,7 +161,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 300;
-		color: #666;
+		color: #66s6;
 	}
 
 	em, i {
@@ -209,3 +214,10 @@ input, select, textarea {
 	br.clear {
 		clear: both;
 	}
+p {
+	color: #000;
+	font-family: 'Vollkorn SC', serif;
+}
+p.alt {
+	color: #eee;
+}
