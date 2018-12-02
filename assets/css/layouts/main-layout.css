@@ -58,4 +58,14 @@
     #main > section.four {
       background-color: #e8edec;
     }
-    
+/* Narrower */
+
+#headerToggle {
+  display: none;
+}
+/* Additions from re-org */
+.container {
+	margin: 0 auto;
+	max-width: 100%;
+	width: 1400px;
+}
