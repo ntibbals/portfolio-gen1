@@ -20,7 +20,6 @@
       width: 48px;
       height: 48px;
     }
-
   .image.fit {
     display: block;
     width: 100%;
@@ -45,4 +44,21 @@
     .image.centered img {
       margin: 0 auto;
       width: auto;
+    }
+
+    #carousel {
+      /* margin: auto; */
+      position: relative;
+      width: 100%;
+      /* height: auto; */
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4)
+    }
+    #carousel > div {
+      position: absolute;
+    }
+    .topimages {
+      width: 100%;
+    }
+    #carouselimage {
+      width: 100%;
     }

@@ -65,7 +65,7 @@
 }
 /* Additions from re-org */
 .container {
-	margin: 0 auto;
+	margin: auto;
 	max-width: 100%;
 	width: 1400px;
 }
