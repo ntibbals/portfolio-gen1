@@ -44,7 +44,7 @@
 
     #main > section.one {
       background-color: #81918E;
-      /* background-image: url("../../../images/lion.jpg"); */
+      background-image: url("../../../images/lion.jpg");
     }
 
     #main > section.two {
@@ -65,7 +65,7 @@
 }
 /* Additions from re-org */
 .container {
-	margin: 0 auto;
+	margin: 0auto;
 	max-width: 100%;
 	width: 1400px;
 }
