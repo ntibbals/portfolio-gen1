@@ -45,3 +45,20 @@
       margin: 0 auto;
       width: auto;
     }
+
+    #carousel {
+      /* margin: auto; */
+      position: relative;
+      width: 100%;
+      /* height: auto; */
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4)
+    }
+    #carousel > div {
+      position: absolute;
+    }
+    .topimages {
+      width: 100%;
+    }
+    #carouselimage {
+      width: 100%;
+    }
