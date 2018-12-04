@@ -136,6 +136,7 @@ input, select, textarea {
 			color: rgb(173, 13, 13);
 			font-size: 5vw;
 			font-family: 'Julee', cursive;
+			position: relative;
 			/* font-family: 'Bungee Shade', cursive; */
 		}
 
@@ -220,4 +221,5 @@ p {
 }
 p.alt {
 	color: #eee;
+	position: relative;
 }
