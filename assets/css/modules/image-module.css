@@ -47,18 +47,27 @@
     }
 
     #carousel {
-      /* margin: auto; */
       position: relative;
       width: 100%;
       /* height: auto; */
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.4)
     }
+    /* #main > #carousel {
+      width: 100%;
+    } */
     #carousel > div {
       position: absolute;
+      width: 100%;
     }
     .topimages {
       width: 100%;
     }
     #carouselimage {
+      position: absolute;
+      float: left;
+      display: block;
       width: 100%;
+    }
+    #alt-header-2 {
+      display: none;
     }
